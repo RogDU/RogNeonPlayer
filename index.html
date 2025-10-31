@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RogNeonPlayer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Background Animado -->
+    <div class="bg-animation">
+        <div class="gradient-bg"></div>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fas fa-wave-square"></i>
+                <span class="logo-text">RogNeonPlayer</span>
+            </div>
+            
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active" data-section="player">
+                    <i class="fas fa-play-circle"></i>
+                    <span>Player</span>
+                </a>
+                <a href="#" class="nav-item" data-section="playlists">
+                    <i class="fas fa-list-music"></i>
+                    <span>Playlists</span>
+                </a>
+                <a href="#" class="nav-item" data-section="favorites">
+                    <i class="fas fa-heart"></i>
+                    <span>Favoritos</span>
+                    <span class="badge" id="favoritesCount">0</span>
+                </a>
+                <a href="#" class="nav-item" data-section="history">
+                    <i class="fas fa-history"></i>
+                    <span>Histórico</span>
+                </a>
+                <a href="#" class="nav-item" data-section="search">
+                    <i class="fas fa-search"></i>
+                    <span>Buscar</span>
+                </a>
+            </nav>
+
+            <!-- Playlist Atual -->
+            <div class="current-playlist">
+                <h4>Playlist Atual</h4>
+                <div class="playlist-info" id="currentPlaylistInfo">
+                    <img src="imagens/Front.jpg" id="currentPlaylistImg">
+                    <div>
+                        <strong id="currentPlaylistName">Avantasia</strong>
+                        <span id="currentPlaylistCount">0 músicas</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <main class="content">
+            <!-- Seção Player -->
+            <section id="player" class="section active">
+                <div class="player-container">
+                    <!-- Album Art com Efeito -->
+                    <div class="album-art-container">
+                        <div class="album-art" id="albumArt">
+                            <div class="art-overlay">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <div class="vinyl-effect"></div>
+                        </div>
+                        <div class="visualizer" id="visualizer">
+                            <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+                            <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+                            <div class="bar"></div><div class="bar"></div>
+                        </div>
+                    </div>
+
+                    <!-- Informações da Música -->
+                    <div class="track-info">
+                        <h1 id="trackName">Twisted Mind</h1>
+                        <p id="trackArtist">Avantasia</p>
+                        <div class="track-meta">
+                            <span id="currentPlaylistDisplay">The Scarecrow</span>
+                            <span>•</span>
+                            <span id="trackPosition">1/11</span>
+                        </div>
+                    </div>
+
+                    <!-- Barra de Progresso -->
+                    <div class="progress-container">
+                        <span id="currentTime">0:00</span>
+                        <div class="progress-bar-container">
+                            <input type="range" id="progressBar" class="progress-bar" value="0" max="100">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <span id="duration">0:00</span>
+                    </div>
+
+                    <!-- Controles -->
+                    <div class="controls">
+                        <button class="control-btn" id="shuffleBtn" title="Embaralhar">
+                            <i class="fas fa-random"></i>
+                        </button>
+                        <button class="control-btn" id="prevBtn" title="Anterior">
+                            <i class="fas fa-step-backward"></i>
+                        </button>
+                        <button class="play-pause-btn" id="playBtn">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button class="control-btn" id="nextBtn" title="Próxima">
+                            <i class="fas fa-step-forward"></i>
+                        </button>
+                        <button class="control-btn" id="repeatBtn" title="Repetir">
+                            <i class="fas fa-redo"></i>
+                        </button>
+                    </div>
+
+                    <!-- Controles Adicionais -->
+                    <div class="secondary-controls">
+                        <button class="icon-btn" id="favoriteBtn" title="Favoritar">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <div class="volume-control">
+                            <i class="fas fa-volume-down"></i>
+                            <input type="range" id="volumeBar" class="volume-bar" value="80" max="100">
+                            <i class="fas fa-volume-up"></i>
+                        </div>
+                        <button class="icon-btn" id="queueBtn" title="Fila de Reprodução">
+                            <i class="fas fa-list-ol"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Playlists -->
+            <section id="playlists" class="section">
+                <div class="section-header">
+                    <h2>Suas Playlists</h2>
+                    <div class="search-box">
+                        <input type="text" placeholder="Buscar playlist..." id="playlistSearch">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="playlists-grid" id="playlistsGrid">
+                    <!-- Playlists serão carregadas aqui -->
+                </div>
+            </section>
+
+            <!-- Seção Favoritos -->
+            <section id="favorites" class="section">
+                <div class="section-header">
+                    <h2>Músicas Favoritas</h2>
+                    <button class="action-btn" id="clearFavorites">
+                        <i class="fas fa-trash"></i>
+                        Limpar Favoritos
+                    </button>
+                </div>
+                <div class="tracks-list" id="favoritesList">
+                    <!-- Favoritos serão carregados aqui -->
+                </div>
+            </section>
+
+            <!-- Seção Histórico -->
+            <section id="history" class="section">
+                <div class="section-header">
+                    <h2>Histórico de Reprodução</h2>
+                    <button class="action-btn" id="clearHistory">
+                        <i class="fas fa-trash"></i>
+                        Limpar Histórico
+                    </button>
+                </div>
+                <div class="tracks-list" id="historyList">
+                    <!-- Histórico será carregado aqui -->
+                </div>
+            </section>
+
+            <!-- Seção Busca -->
+            <section id="search" class="section">
+                <div class="section-header">
+                    <h2>Buscar Música</h2>
+                    <div class="search-box large">
+                        <input type="text" placeholder="Digite o nome da música ou artista..." id="globalSearch">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="search-results" id="searchResults">
+                    <div class="empty-state">
+                        <i class="fas fa-search"></i>
+                        <p>Digite acima para buscar músicas</p>
+                        <small>Exemplo: "Twisted", "Avantasia", "Tongues"</small>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Notifications -->
+    <div id="notification" class="notification"></div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
