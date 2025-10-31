@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RogNeonPlayer</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <!-- Background Animado -->
@@ -58,6 +58,12 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Botão Sair -->
+            <button class="exit-btn" id="exitBtn">
+                <i class="fas fa-sign-out-alt"></i>
+                <span>Sair do Player</span>
+            </button>
         </aside>
 
         <!-- Conteúdo Principal -->
@@ -197,6 +203,28 @@
                 </div>
             </section>
         </main>
+    </div>
+
+    <!-- Modal de Confirmação de Saída -->
+    <div id="exitModal" class="modal">
+        <div class="modal-content exit-modal">
+            <div class="modal-header">
+                <h3><i class="fas fa-sign-out-alt"></i> Sair do Player</h3>
+            </div>
+            <div class="modal-body">
+                <p>Tem certeza que deseja sair do RogNeonPlayer?</p>
+                <div class="modal-actions">
+                    <button class="modal-btn cancel-btn" id="cancelExit">
+                        <i class="fas fa-times"></i>
+                        Cancelar
+                    </button>
+                    <button class="modal-btn confirm-btn" id="confirmExit">
+                        <i class="fas fa-check"></i>
+                        Sair
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Notifications -->
