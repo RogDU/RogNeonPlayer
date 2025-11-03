@@ -10,77 +10,77 @@ class MusicPlayer {
                         name: "Twisted Mind",
                         artist: "Avantasia",
                         image: "imagens/avantasia.jpg",
-                        path: "musicas/avantasia/01.Twisted Mind.mp3",
+                        path: "musicas/avantasia-The Scarecrow/01.Twisted Mind.mp3",
                         duration: "4:15"
                     },
                     {
                         name: "The Scarecrow",
                         artist: "Avantasia",
                         image: "imagens/avantasia.jpg",
-                        path: "musicas/avantasia/02.The Scarecrow.mp3",
+                        path: "musicas/avantasia-The Scarecrow/02.The Scarecrow.mp3",
                         duration: "11:12"
                     },
                     {
                         name: "Shelter From The Rain",
                         artist: "Avantasia",
                         image: "imagens/avantasia.jpg",
-                        path: "musicas/avantasia/03.Shelter From The Rain.mp3",
+                        path: "musicas/avantasia-The Scarecrow/03.Shelter From The Rain.mp3",
                         duration: "5:08"
                     },
                     {
                         name: "Carry Me Over",
                         artist: "Avantasia",
                         image: "imagens/avantasia.jpg",
-                        path: "musicas/avantasia/04. Carry Me Over.mp3",
+                        path: "musicas/avantasia-The Scarecrow/04. Carry Me Over.mp3",
                         duration: "4:09"
                     },
                     {
                         name: "What Kind Of Love",
                         artist: "Avantasia",
                         image: "imagens/avantasia.jpg",
-                        path: "musicas/avantasia/05. What Kind Of Love.mp3",
+                        path: "musicas/avantasia-The Scarecrow/05. What Kind Of Love.mp3",
                         duration: "4:54"
                     },
                     {
                         name: "Another Angel Down",
                         artist: "Avantasia",
                         image: "imagens/avantasia.jpg",
-                        path: "musicas/avantasia/06. Another Angel Down.mp3",
+                        path: "musicas/avantasia-The Scarecrow/06. Another Angel Down.mp3",
                         duration: "5:42"
                     },
                     {
                         name: "The Toy Master",
                         artist: "Avantasia",
                         image: "imagens/avantasia.jpg",
-                        path: "musicas/avantasia/07. The Toy Master.mp3",
+                        path: "musicas/avantasia-The Scarecrow/07. The Toy Master.mp3",
                         duration: "4:15"
                     },
                     {
                         name: "Devil In The Belfry",
                         artist: "Avantasia",
                         image: "imagens/avantasia.jpg",
-                        path: "musicas/avantasia/08. Devil In The Belfry.mp3",
+                        path: "musicas/avantasia-The Scarecrow/08. Devil In The Belfry.mp3",
                         duration: "4:41"
                     },
                     {
                         name: "Cry Just A Little",
                         artist: "Avantasia",
                         image: "imagens/avantasia.jpg",
-                        path: "musicas/avantasia/09. Cry Just A Little.mp3",
+                        path: "musicas/avantasia-The Scarecrow/09. Cry Just A Little.mp3",
                         duration: "5:45"
                     },
                     {
                         name: "I Don't Belive In Your Love",
                         artist: "Avantasia",
                         image: "imagens/avantasia.jpg",
-                        path: "musicas/avantasia/10. I Don't Belive In Your Love.mp3",
+                        path: "musicas/avantasia-The Scarecrow/10. I Don't Belive In Your Love.mp3",
                         duration: "5:32"
                     },
                     {
                         name: "Lost In Space",
                         artist: "Avantasia",
                         image: "imagens/avantasia.jpg",
-                        path: "musicas/avantasia/11. Lost In Space.mp3",
+                        path: "musicas/avantasia-The Scarecrow/11. Lost In Space.mp3",
                         duration: "4:12"
                     }
                 ]
@@ -94,77 +94,77 @@ class MusicPlayer {
                         name: "Tongues",
                         artist: "Deathstars",
                         image: "imagens/deathsatars.jpg",
-                        path: "musicas/deathstars/01. Tongues.mp3",
+                        path: "musicas/deathstars-Termination Bliss/01. Tongues.mp3",
                         duration: "3:45"
                     },
                     {
                         name: "Blitzkrieg",
                         artist: "Deathstars",
                         image: "imagens/deathsatars.jpg",
-                        path: "musicas/deathstars/02. Blitzkrieg Boom.mp3",
+                        path: "musicas/deathstars-Termination Bliss/02. Blitzkrieg Boom.mp3",
                         duration: "4:12"
                     },
                     {
                         name: "Motherzone",
                         artist: "Deathstars",
                         image: "imagens/deathsatars.jpg",
-                        path: "musicas/deathstars/03. Motherzone.mp3",
+                        path: "musicas/deathstars-Termination Bliss/03. Motherzone.mp3",
                         duration: "4:15"
                     },
                     {
                         name: "Cyanide",
                         artist: "Deathstars",
                         image: "imagens/deathsatars.jpg",
-                        path: "musicas/deathstars/04. Cyanide.mp3",
+                        path: "musicas/deathstars-Termination Bliss/04. Cyanide.mp3",
                         duration: "3:54"
                     },
                     {
                         name: "The Greatest Fight On Earth",
                         artist: "Deathstars",
                         image: "imagens/deathsatars.jpg",
-                        path: "musicas/deathstars/05. The Greatest Fight On Earth.mp3",
+                        path: "musicas/deathstars-Termination Bliss/05. The Greatest Fight On Earth.mp3",
                         duration: "3:54"
                     },
                     {
                         name: "Play God",
                         artist: "Deathstars",
                         image: "imagens/deathsatars.jpg",
-                        path: "musicas/deathstars/06. Play God.mp3",
+                        path: "musicas/deathstars-Termination Bliss/06. Play God.mp3",
                         duration: "4:09"
                     },
                     {
                         name: "Trinity Fields",
                         artist: "Deathstars",
                         image: "imagens/deathsatars.jpg",
-                        path: "musicas/deathstars/07. Trinity Fields.mp3",
+                        path: "musicas/deathstars-Termination Bliss/07. Trinity Fields.mp3",
                         duration: "4:22"
                     },
                     {
                         name: "The Last Ammunition",
                         artist: "Deathstars",
                         image: "imagens/deathsatars.jpg",
-                        path: "musicas/deathstars/08. The Last Ammunition.mp3",
+                        path: "musicas/deathstars-Termination Bliss/08. The Last Ammunition.mp3",
                         duration: "4:06"
                     },
                     {
                         name: "Virtue To Vice",
                         artist: "Deathstars",
                         image: "imagens/deathsatars.jpg",
-                        path: "musicas/deathstars/09. Virtue To Vice.mp3",
+                        path: "musicas/deathstars-Termination Bliss/09. Virtue To Vice.mp3",
                         duration: "3:42"
                     },
                     {
                         name: "Death In Vogue",
                         artist: "Deathstars",
                         image: "imagens/deathsatars.jpg",
-                        path: "musicas/deathstars/10. Death In Vogue.mp3",
+                        path: "musicas/deathstars-Termination Bliss/10. Death In Vogue.mp3",
                         duration: "4:14"
                     },
                     {
                         name: "Termination Bliss",
                         artist: "Deathstars",
                         image: "imagens/deathsatars.jpg",
-                        path: "musicas/deathstars/11. Termination Bliss.mp3",
+                        path: "musicas/deathstars-Termination Bliss/11. Termination Bliss.mp3",
                         duration: "3:43"
                     }
                 ]
@@ -178,105 +178,105 @@ class MusicPlayer {
                         name: "Dominium Maris Baltici",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/01. Dominium Maris Baltici.mp3",
+                        path: "musicas/sabaton-Carolus Rex/01. Dominium Maris Baltici.mp3",
                         duration: "0:29"
                     },
                     {
                         name: "The Lion From The North",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/02. The Lion From The North.mp3",
+                        path: "musicas/sabaton-Carolus Rex/02. The Lion From The North.mp3",
                         duration: "4:42"
                     },
                     {
                         name: "Gott Mit Uns",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/03. Gott Mit Uns.mp3",
+                        path: "musicas/sabaton-Carolus Rex/03. Gott Mit Uns.mp3",
                         duration: "3:15"
                     },
                     {
                         name: "A Lifetime of War",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/04. A Lifetime of War.mp3",
+                        path: "musicas/sabaton-Carolus Rex/04. A Lifetime of War.mp3",
                         duration: "5:45"
                     },
                     {
                         name: "1648",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/05. 1648.mp3",
+                        path: "musicas/sabaton-Carolus Rex/05. 1648.mp3",
                         duration: "3:55"
                     },
                     {
                         name: "The Carolean's Prayer",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/06. The Carolean's Prayer.mp3",
+                        path: "musicas/sabaton-Carolus Rex/06. The Carolean's Prayer.mp3",
                         duration: "6:14"
                     },
                     {
                         name: "Carolus Rex",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/07. Carolus Rex.mp3",
+                        path: "musicas/sabaton-Carolus Rex/07. Carolus Rex.mp3",
                         duration: "4:24"
                     },
                     {
                         name: "Killing Ground",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/08. Killing Ground.mp3",
+                        path: "musicas/sabaton-Carolus Rex/08. Killing Ground.mp3",
                         duration: "4:24"
                     },
                     {
                         name: "Poltava",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/09. Poltava.mp3",
+                        path: "musicas/sabaton-Carolus Rex/09. Poltava.mp3",
                         duration: "4:03"
                     },
                     {
                         name: "Long Live the King",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/10. Long Live the King.mp3",
+                        path: "musicas/sabaton-Carolus Rex/10. Long Live the King.mp3",
                         duration: "4:09"
                     },
                     {
                         name: "Ruina Imperii",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/11. Ruina Imperii.mp3",
+                        path: "musicas/sabaton-Carolus Rex/11. Ruina Imperii.mp3",
                         duration: "3:21"
                     },
                     {
                         name: "Twilight Of The Thunder God",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/12. Twilight Of The Thunder God.mp3",
+                        path: "musicas/sabaton-Carolus Rex/12. Twilight Of The Thunder God.mp3",
                         duration: "3:59"
                     },
                     {
                         name: "In The Army Now",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/13. In The Army Now.mp3",
+                        path: "musicas/sabaton-Carolus Rex/13. In The Army Now.mp3",
                         duration: "3:58"
                     },
                     {
                         name: "Feuer Frei",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/14. Feuer Frei.mp3",
+                        path: "musicas/sabaton-Carolus Rex/14. Feuer Frei.mp3",
                         duration: "3:12"
                     },
                     {
                         name: "Harley From Hell",
                         artist: "Sabaton",
                         image: "imagens/Sabaton.jpg",
-                        path: "musicas/Sabaton/15. Harley From Hell.mp3",
+                        path: "musicas/sabaton-Carolus Rex/15. Harley From Hell.mp3",
                         duration: "3:50"
                     }
                 ]
@@ -290,105 +290,105 @@ class MusicPlayer {
                         name: "Stargazers",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/01. Stargazers.mp3",
+                        path: "musicas/nightwish-Oceanborn/01. Stargazers.mp3",
                         duration: "4:28"
                     },
                     {
                         name: "Gethsemane",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/02. Gethsemane.mp3",
+                        path: "musicas/nightwish-Oceanborn/02. Gethsemane.mp3",
                         duration: "5:22"
                     },
                     {
                         name: "Devil & The Deep Dark Ocean",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/03. Devil & The Deep Dark Ocean.mp3",
+                        path: "musicas/nightwish-Oceanborn/03. Devil & The Deep Dark Ocean.mp3",
                         duration: "4:46"
                     },
                     {
                         name: "Sacrament Of Wilderness",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/04. Sacrament Of Wilderness.mp3",
+                        path: "musicas/nightwish-Oceanborn/04. Sacrament Of Wilderness.mp3",
                         duration: "4:12"
                     },
                     {
                         name: "Passion And The Opera",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/05. Passion And The Opera.mp3",
+                        path: "musicas/nightwish-Oceanborn/05. Passion And The Opera.mp3",
                         duration: "4:50"
                     },
                     {
                         name: "Swanheart",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/06. Swanheart.mp3",
+                        path: "musicas/nightwish-Oceanborn/06. Swanheart.mp3",
                         duration: "4:44"
                     },
                     {
                         name: "Moondance",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/07. Moondance.mp3",
+                        path: "musicas/nightwish-Oceanborn/07. Moondance.mp3",
                         duration: "3:31"
                     },
                     {
                         name: "The Riddler",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/08. The Riddler.mp3",
+                        path: "musicas/nightwish-Oceanborn/08. The Riddler.mp3",
                         duration: "5:16"
                     },
                     {
                         name: "The Pharaoh Sails To Orion",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/09. The Pharaoh Sails To Orion.mp3",
+                        path: "musicas/nightwish-Oceanborn/09. The Pharaoh Sails To Orion.mp3",
                         duration: "6:26"
                     },
                     {
                         name: "Walking In The Air",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/10. Walking In The Air.mp3",
+                        path: "musicas/nightwish-Oceanborn/10. Walking In The Air.mp3",
                         duration: "5:31"
                     },
                     {
                         name: "Sleeping Sun",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/11. Sleeping Sun.mp3",
+                        path: "musicas/nightwish-Oceanborn/11. Sleeping Sun.mp3",
                         duration: "4:09"
                     },
                     {
                         name: "Nightquest (Bonus Track)",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/12. Nightquest (Bonus Track).mp3",
+                        path: "musicas/nightwish-Oceanborn/12. Nightquest (Bonus Track).mp3",
                         duration: "4:17"
                     },
                     {
                         name: "Sleeping Sun (Live) (Bonus Track)",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/13. Sleeping Sun (Live) (Bonus Track).mp3",
+                        path: "musicas/nightwish-Oceanborn/13. Sleeping Sun (Live) (Bonus Track).mp3",
                         duration: "4:32"
                     },
                     {
                         name: "Swanheart (Live) (Bonus Track)",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/14. Swanheart (Live) (Bonus Track).mp3",
+                        path: "musicas/nightwish-Oceanborn/14. Swanheart (Live) (Bonus Track).mp3",
                         duration: "3:55"
                     },
                     {
                         name: "The Pharaoh Sails To Orion(Live)(Bonus Track)",
                         artist: "Nightwish",
                         image: "imagens/Oceanborn.jpg",
-                        path: "musicas/nightwish/15. The Pharaoh Sails To Orion (Live) (Bonus Track).mp3",
+                        path: "musicas/nightwish-Oceanborn/15. The Pharaoh Sails To Orion (Live) (Bonus Track).mp3",
                         duration: "6:44"
                     }
                 ]
